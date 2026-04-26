@@ -1,11 +1,9 @@
 import random
 import secrets
 import yaml
-import os
 
 # 物品池：id / 权重 / 数量区间（闭区间）
 POOL = [
-    # 下界/末地类
     ("minecraft:netherite_scrap",        10, (1, 3)),
     ("minecraft:netherite_ingot",         6, (1, 2)),
     ("minecraft:ancient_debris",          5, (1, 2)),
@@ -16,8 +14,6 @@ POOL = [
     ("minecraft:chorus_fruit",            6, (16, 32)),
     ("minecraft:popped_chorus_fruit",     5, (8, 16)),
     ("minecraft:end_crystal",             4, (2, 4)),
-
-    # 海洋/宝藏类
     ("minecraft:heart_of_the_sea",        5, (1, 2)),
     ("minecraft:nautilus_shell",          8, (4, 8)),
     ("minecraft:conduit",                 2, (1, 1)),
@@ -28,8 +24,6 @@ POOL = [
     ("minecraft:prismarine_crystals",     6, (8, 16)),
     ("minecraft:dark_prismarine",         5, (8, 16)),
     ("minecraft:sea_lantern",             4, (4, 8)),
-
-    # 音乐/头颅类
     ("minecraft:music_disc_wait",         3, (1, 1)),
     ("minecraft:music_disc_otherside",    2, (1, 1)),
     ("minecraft:music_disc_5",            2, (1, 1)),
@@ -38,21 +32,15 @@ POOL = [
     ("minecraft:skeleton_skull",          4, (1, 1)),
     ("minecraft:wither_skeleton_skull",   2, (1, 1)),
     ("minecraft:piglin_head",             3, (1, 1)),
-
-    # 药水/食物类
     ("minecraft:enchanted_golden_apple",  6, (1, 2)),
     ("minecraft:golden_apple",            8, (4, 8)),
     ("minecraft:honey_bottle",            9, (8, 16)),
     ("minecraft:dried_kelp_block",        7, (16, 32)),
     ("minecraft:pumpkin_pie",             8, (12, 24)),
-
-    # 深暗类
     ("minecraft:echo_shard",              6, (3, 6)),
     ("minecraft:sculk_catalyst",          5, (1, 2)),
     ("minecraft:sculk_shrieker",          4, (2, 4)),
     ("minecraft:reinforced_deepslate",    3, (4, 8)),
-
-    # 杂项硬通货
     ("minecraft:emerald",                 9, (16, 32)),
     ("minecraft:diamond",                 7, (8, 16)),
     ("minecraft:gold_ingot",              8, (12, 24)),
@@ -109,6 +97,7 @@ def main(cnt=100):
     print(f"📄 插件配置：new_year_cdk.yml")
     print(f"📋 CDK 清单：cdk_list.txt")
     print(f"🎯 适用插件：YanPlugins/CDKer")
+    print(f"✅ 请将以上文件放置在服务器端../plugins/cdker目录下，并执行/cdk import new_year_cdk.yml append命令导入CDK数据")
 
 if __name__ == "__main__":
     main()
