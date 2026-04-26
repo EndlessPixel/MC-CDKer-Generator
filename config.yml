@@ -1,0 +1,206 @@
+# 生成CDK的数量
+generated_quantity: 100
+
+# 生成CDK的长度
+cdk_length: 20
+
+file:
+  # 生成CDK的文件路径
+  yaml: cdk.yml
+  text: cdk.txt
+  # 支持的占位符
+  # {user_name} 当前系统登录的用户名
+  # {time} unix时间戳
+  # {date} 当前日期，格式为YYYYMMDD
+  # {os} 当前操作系统，例如Windows、macOS、Linux等
+# 生成CDK的物品列表
+# 权重 / 数量区间（闭区间）
+item_list:
+  minecraft:netherite_scrap:
+    - 10
+    - 1
+    - 3
+  minecraft:netherite_ingot:
+    - 6
+    - 1
+    - 2
+  minecraft:ancient_debris:
+    - 5
+    - 1
+    - 2
+  minecraft:dragon_breath:
+    - 8
+    - 8
+    - 16
+  minecraft:elytra:
+    - 3
+    - 1
+    - 1 
+  minecraft:dragon_head:
+    - 4
+    - 1
+    - 1
+  minecraft:shulker_shell:
+    - 7
+    - 2
+    - 4
+  minecraft:chorus_fruit:
+    - 6
+    - 16
+    - 32
+  minecraft:popped_chorus_fruit:
+    - 5
+    - 8
+    - 16  
+  minecraft:end_crystal:
+    - 4
+    - 2
+    - 4
+  minecraft:heart_of_the_sea:
+    - 5
+    - 1
+    - 2
+  minecraft:nautilus_shell:
+    - 8
+    - 4
+    - 8
+  minecraft:conduit:
+    - 2
+    - 1
+    - 1
+  minecraft:turtle_helmet:
+    - 3
+    - 1
+    - 1
+  minecraft:scute:
+    - 6
+    - 3
+    - 5
+  minecraft:trident:
+    - 3
+    - 1
+    - 1 
+  minecraft:prismarine_shard:
+    - 7
+    - 12
+    - 24
+  minecraft:prismarine_crystals:
+     - 6
+     - 8
+     - 16
+  minecraft:dark_prismarine:
+     - 5
+     - 8
+     - 16
+  minecraft:sea_lantern:
+     - 4
+     - 4
+     - 8
+  minecraft:music_disc_wait:
+     - 3
+     - 1
+     - 1
+  minecraft:music_disc_otherside:
+     - 2
+     - 1
+     - 1
+  minecraft:music_disc_5:
+     - 2
+     - 1
+     - 1
+  minecraft:creeper_head:
+     - 4
+     - 1
+     - 1
+  minecraft:zombie_head:
+     - 4
+     - 1
+     - 1
+  minecraft:skeleton_skull:
+     - 4
+     - 1
+     - 1
+  minecraft:wither_skeleton_skull:
+     - 2
+     - 1
+     - 1
+  minecraft:piglin_head:
+     - 3
+     - 1
+     - 1
+  minecraft:enchanted_golden_apple:
+     - 6
+     - 1
+     - 2
+  minecraft:golden_apple:
+     - 8
+     - 4
+     - 8
+  minecraft:honey_bottle:
+     - 9
+     - 8
+     - 16
+  minecraft:dried_kelp_block:
+     - 7
+     - 16
+     - 32
+  minecraft:pumpkin_pie:
+     - 8
+     - 12
+     - 24
+  minecraft:echo_shard:
+     - 6
+     - 3
+     - 6
+  minecraft:sculk_catalyst:
+     - 5
+     - 1
+     - 2
+  minecraft:sculk_shrieker:
+    - 4
+    - 2
+    - 4
+  minecraft:reinforced_deepslate:
+    - 3
+    - 4
+    - 8
+  minecraft:emerald:
+    - 9
+    - 16
+    - 32
+  minecraft:diamond:
+    - 7
+    - 8
+    - 16
+  minecraft:gold_ingot:
+    - 8
+    - 12
+    - 24
+  minecraft:iron_ingot:
+    - 9
+    - 16
+    - 32
+  minecraft:lapis_lazuli:
+    - 8
+    - 16
+    - 32
+  minecraft:redstone:
+    - 8
+    - 16
+    - 32
+  minecraft:quartz:
+    - 7
+    - 16
+    - 32
+  minecraft:blaze_rod:
+    - 7
+    - 8
+    - 16
+  minecraft:ghast_tear:
+    - 5
+    - 4
+    - 8
+  minecraft:ender_pearl:
+    - 6
+    - 8
+    - 16
