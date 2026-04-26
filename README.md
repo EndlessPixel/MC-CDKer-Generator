@@ -1,6 +1,6 @@
 # MC-CDKer-Generator
 Minecraft CDK 礼包批量生成工具  
-**适配 YanPlugins/CDKer 插件**
+**适配 [YanPlugins/CDKer](https://github.com/YanPlugins/CDKer) 插件**
 
 ## 介绍
 一键生成带**权重随机物品**的 CDK 兑换码，  
@@ -11,7 +11,7 @@ Minecraft CDK 礼包批量生成工具
 - 20 位高强度随机 CDK
 - 物品带**权重概率**
 - 物品数量**随机区间**
-- 直接生成 Cdker 插件可用的 yml 配置
+- 直接生成 CDKer 插件可用的 yml 配置
 - 自动导出 CDK 清单文本（方便发放）
 - 内置海量精品物品（下界、末地、深海、深暗之域）
 
@@ -24,13 +24,21 @@ https://github.com/YanPlugins/CDKer
 ```bash
 pip install pyyaml
 ```
+
 2. 运行脚本
 ```bash
 python generate_cdk.py
 ```
+
 3. 得到两个文件
-- `new_year_cdk.yml` → 放入 Cdker 插件
+- `new_year_cdk.yml` → 放入 CDKer 插件
 - `cdk_list.txt` → 礼包码列表
+
+4. 复制 `new_year_cdk.yml` 到 ./plugins/CDKer 目录下
+
+5. 输入 `/cdk import new_year_cdk.yml append` 命令导入CDK数据
+
+6. **(可选)** 发放礼包码
 
 ## 适用场景
 - 服务器节日活动
