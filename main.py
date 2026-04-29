@@ -39,7 +39,7 @@ def random_item():
     min_q = val[1]
     max_q = val[2]
     qty = random.randint(min_q, max_q)
-    return f"give %player% {item} {qty}"
+    return f"give {{player}} {item} {qty}"
 
 # 主逻辑
 def main():
